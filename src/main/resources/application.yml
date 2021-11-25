@@ -27,3 +27,17 @@ management:
       enabled: true
     readinessstate:
       enabled: true
+
+## Configuring info endpoint
+info:
+  app:
+    name: segment
+    description: This is the segment application
+    version: 0.0.1
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.apache.http: INFO
+    org.ok.segment: INFO
