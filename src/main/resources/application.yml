@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: "segment"
+
+server:
+  port: 0
