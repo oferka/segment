@@ -9,5 +9,4 @@ class SegmentApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
