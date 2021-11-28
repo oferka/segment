@@ -1,6 +1,8 @@
 spring:
   application:
     name: "segment"
+  profiles:
+    active: "random-segments-provider"
 
 server:
   port: 0
@@ -23,6 +25,8 @@ management:
     shutdown:
       enabled: true
   health:
+    segmentContent:
+      enabled: true
     livenessstate:
       enabled: true
     readinessstate:
